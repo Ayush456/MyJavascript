@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javaScript setAttribute example</title>
+</head>
+<body>
+
+<a id="enableLink"> A link : to go to google.com </a>
+<br>
+<p>Clicking ths button will let the above text to have a href element in tagname 'a'</p>
+
+<button onclick="web()">Click Me!</button>
+
+
+<script>
+	function web() {
+		document.getElementById('enableLink').setAttribute("href","https://www.google.co.in/?gfe_rd=cr&dcr=0&ei=JX50WuiCEsvy8Af5kYHwDg");
+	}
+
+
+</script>
+
+</body>
+</html>
